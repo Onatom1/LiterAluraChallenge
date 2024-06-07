@@ -7,9 +7,9 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        String url = "jdbc:postgresql://localhost/NOME_DO_BANCO_DE_DADOS_AQUI"; //Substitua pelo nome do banco de dados criado no PostGreSQL
-        String user = "postgres"; 
-        String password = "SUA_SENHA_AQUI"; //Substitua por sua senha do PostGreSQL
+        String url = "jdbc:postgresql://localhost/livros"; // URL do seu banco de dados PostgreSQL
+        String user = "postgres";
+        String password = "33887534"; // Senha do PostgreSQL
 
         try (Connection connection = DriverManager.getConnection(url, user, password);
              Scanner scanner = new Scanner(System.in)) {
